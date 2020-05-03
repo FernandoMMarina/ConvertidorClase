@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ConvertidorClase</string>
+    <string name="consumoCombustibleBT">Consumo de combustible</string>
+    <string name="energiaBT">Energia</string>
+    <string name="frecuenciaBT">Frecuencia</string>
+    <string name="longitudBT">Longitud</string>
+    <string name="areaBT">Area</string>
+    <string name="codigoMorseBT">Codigo Morse</string>
+    <string name="ingrese_palabra_codigo_morse">Ingrese palabra</string>
+    <string name="start_codigomorseBT">Start</string>
+    <string name="ingrese_numero_frecuecia">Ingrese numero</string>
+    <string name="convertir_de">Convertir De :</string>
+    <string name="convertir_a">Convertir A :</string>
+    <string name="convertir">Convertir</string>
+    <string name="ingrese_un_numero_Longitud">Ingrese un numero</string>
+    <string name="proximamente">Proximamente</string>
+    <string name="mostrar_resultado">Mostrar resultado</string>
+    <string name="resultado">Resultado</string>
+</resources>

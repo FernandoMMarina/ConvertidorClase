@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#511845"
+    tools:context=".Energia_Activity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ingresoEnergia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingrese_numero_frecuecia"
+        android:layout_gravity="center"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/convertirDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="@string/convertir_a" />
+
+    <Spinner
+        android:id="@+id/spinnerConvertiDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+         />
+
+    <TextView
+        android:id="@+id/convertirA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:text="@string/convertir_de"
+        android:textAlignment="gravity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerConvertiDe" />
+
+    <Spinner
+        android:id="@+id/spinnerConvertirA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/convertirA" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#040304"
+        android:onClick="CalcularEnergia"
+        android:text="@string/convertir"
+        android:textColor="#F7F6F8" />
+
+    <TextView
+        android:id="@+id/mostrarResultado"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:hint="@string/resultado"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:layout_marginTop="40dp"
+        android:background="#231735"
+        android:textColor="#F1EEEE"
+        />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/energiaBT"
+        style="@style/estiloEnergia"
+        android:gravity="fill"
+        android:onClick="activity_energia"
+        android:text="@string/energiaBT"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+         />
+    <TextView
+        android:id="@+id/consumoDeCombustibleBT"
+        style="@style/estiloConsumoDeCombustible"
+        android:gravity="fill"
+        android:onClick="activity_consumo_combustible"
+        android:padding="30dp"
+        android:text="@string/consumoCombustibleBT" />
+
+    <TextView
+        android:id="@+id/frecuenciaBT"
+        style="@style/estiloFrecuencia"
+        android:gravity="fill"
+        android:onClick="activity_frecuencia"
+        android:padding="30dp"
+        android:text="@string/frecuenciaBT" />
+
+    <TextView
+        android:id="@+id/longitudBT"
+        style="@style/estiloLongitud"
+        android:gravity="fill"
+        android:onClick="activity_longitud"
+        android:padding="30dp"
+        android:text="@string/longitudBT" />
+
+    <TextView
+        android:id="@+id/areaBT"
+        style="@style/estiloCategoria5"
+        android:gravity="fill"
+        android:onClick="activity_area"
+        android:padding="30dp"
+        android:text="@string/areaBT" />
+
+    <TextView
+        style="@style/estiloCategoria6"
+        android:gravity="fill"
+        android:onClick="activity_codigomorse"
+        android:padding="30dp"
+        android:text="@string/codigoMorseBT" />
+
+    <TextView
+        style="@style/estiloCategoria7"
+        android:gravity="fill"
+        android:padding="30dp"
+        android:text="@string/proximamente" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff5733"
+    tools:context=".Longitud_Activity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/ingresoL"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="@string/ingrese_un_numero_Longitud"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/convertir_de"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerDeL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/convertir_a"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerAL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#171717"
+        android:layout_gravity="center"
+        android:text="@string/convertir"
+        android:textColor="#EFEEEF"
+        android:layout_marginTop="40dp"
+        android:onClick="calcularLongitud"/>
+
+    <TextView
+        android:id="@+id/mostrarResultadoL"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:hint="@string/resultado"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+
+
+</LinearLayout>
